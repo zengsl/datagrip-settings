@@ -1,0 +1,28 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="mysql.8">
+      <artifact />
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.25" />
+    </driver>
+    <driver id="oracle.19">
+      <artifact id="Oracle" name="Oracle" use="true" version="21.1.0.0" />
+    </driver>
+    <driver id="oracle">
+      <artifact id="Oracle" name="Oracle" use="true" version="12.2.0.1" />
+    </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
+    </driver>
+    <driver id="java.sql.Driver" name="kingbase8-8.2.0" dialect="GenericSQL" driver-class="com.kingbase8.Driver">
+      <remarks>金仓数据库8驱动</remarks>
+      <library>
+        <url>file://$USER_HOME$/iriswork/tools/database/kingbase8-8.2.0.jar</url>
+      </library>
+    </driver>
+    <driver id="14417fca-11bf-427f-8797-4a2ed030ecfc" name="达梦" dialect="Oracle" driver-class="dm.jdbc.driver.DmDriver">
+      <library>
+        <url>file://$USER_HOME$/iriswork/tools/database/DmJdbcDriver18-1.0.0.jar</url>
+      </library>
+    </driver>
+  </component>
+</application>
